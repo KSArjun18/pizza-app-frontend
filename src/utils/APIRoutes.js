@@ -1,4 +1,4 @@
-export const host = "http://localhost:5000";
+export const host = "https://pizza-app-backend-mvwp.onrender.com";
 
 export const getPizzaData = `${host}/api/pizzas/getAllPizzas`;
 export const addNewPizza = `${host}/api/pizzas/addpizza`;
@@ -9,7 +9,7 @@ export const deletedPizza = `${host}/api/pizzas/deletepizza`;
 export const registerRoute = `${host}/api/users/register`;
 export const loginRoute = `${host}/api/users/login`;
 export const getUsersAll = `${host}/api/users/getallusers`;
-export const deleteTheUser = `${host}/api/users/deleteuser`; 
+export const deleteTheUser = `${host}/api/users/deleteuser`;
 export const adminRoute = `${host}/api/users/admin`;
 
 export const orderRoute = `${host}/api/orders/placeorder`;
