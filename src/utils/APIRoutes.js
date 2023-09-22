@@ -1,4 +1,4 @@
-export const host = "https://pizza-app-backend-mvwp.onrender.com";
+export const host = "http://localhost:5000";
 
 export const getPizzaData = `${host}/api/pizzas/getAllPizzas`;
 export const addNewPizza = `${host}/api/pizzas/addpizza`;
